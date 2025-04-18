@@ -1,0 +1,11 @@
+.fieldEditor {
+    border-color: black;
+    input {
+        // color: black;
+        background-color: aliceblue;
+    }
+
+    &::placeholder {
+        color: black;
+    }
+}

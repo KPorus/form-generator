@@ -3,7 +3,7 @@ import { RootState } from "@/lib/store";
 
 export const generateReactCode = (fields: RootState["form"]["fields"]) => {
   return `
-function GeneratedForm() {
+export default function GeneratedForm() {
   return (
     <form>
       ${fields

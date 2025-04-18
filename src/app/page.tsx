@@ -9,7 +9,7 @@ export default function Home() {
       justifyContent="center"
       alignItems="center"
     >
-      <Container maxW="lg">
+      <Container maxW="xl">
         <Flex
           direction="column"
           gap={6}

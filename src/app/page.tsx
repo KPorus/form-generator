@@ -1,14 +1,31 @@
 import { Container, Flex, Box, Text } from "@chakra-ui/react";
 import Link from "next/link";
+import logo from "/public/logo.png";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <Box
       minH="100vh"
       display="flex"
+      flexDirection="column"
       justifyContent="center"
       alignItems="center"
     >
+      <Link href="/" className="mb-5">
+        <Image
+          src={logo}
+          alt="logo"
+          width={500}
+          height={500}
+          style={{
+            width: "80px",
+            height: "80px",
+            borderRadius: "100%",
+          }}
+        />
+      </Link>
+
       <Container maxW="xl">
         <Flex
           direction="column"
